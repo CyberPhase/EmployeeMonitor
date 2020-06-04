@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>DeskMonitor ScreenCapture Plugin</title>
+
+    
+</head>
+<body>
+
+
+    <div class="container">
+
+        <!-- Preview -->
+        <div id="Viewer" class="imgPreview">
+            <img id="imgPrev" src="DeskMonitor.jpg" class="img-responsive" alt="Generic Failure" />
+        </div>
+        <!-- Site footer -->
+
+    </div> <!-- /container -->
+
+    <script>
+        var refreshInterval = 500;
+
+        var timer = setInterval(function () {
+            var ImagePreview = document.getElementById('imgPrev');
+            ImagePreview.src = 'DeskMonitor.jpg?rand=' + Math.random();
+        }, refreshInterval);
+
+
+    </script>
+
+</body>
+
+</html>
