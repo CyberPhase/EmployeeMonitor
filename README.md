@@ -1,5 +1,5 @@
 # EmployeeMonitor
-Enables Windows screen recording and webcasting
+Enables Universal screen recording and webcasting
 
 ## Use Case
 This software allows the employers or administrators to monitor the desktop activities (ONLY WINDOWS OSs) of the employees. It records the screen of any computer you select and casts it through a web interface. 
